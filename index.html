@@ -29,6 +29,19 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet" />
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <style>
+      .blog-img {
+        width: 400px;
+        height: 220px; /* samakan tinggi */
+        border-radius: 8px; /* opsional */
+      }
+      .profile-img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%; /* bikin bulat */
+        object-fit: cover; /* biar tidak gepeng */
+      }
+    </style>
   </head>
 
   <body>
@@ -333,7 +346,7 @@
                   <ul>
                     <li>
                       <div class="item">
-                        <img src="img/blog_1.jpg" alt="" />
+                        <img src="img/blog_1.jpg" alt="" class="blog-img" />
                         <div class="text-content">
                           <h4>Promosi Bimbel Gratis untuk Anak-anak Desa Pangebatan</h4>
                           <span>28 Januari 2026</span>
@@ -350,7 +363,7 @@
                     </li>
                     <li>
                       <div class="item">
-                        <img src="img/blog_2.jpg" alt="" />
+                        <img src="img/blog_2.jpg" alt="" class="blog-img" />
                         <div class="text-content">
                           <h4>Pengembangan Motorik dan Imajinasi Anak Usia Dini melalui Program Edukatif di TK Mutiara Hati</h4>
                           <span>31 Januari 2026</span>
@@ -367,7 +380,7 @@
                     </li>
                     <li>
                       <div class="item">
-                        <img src="img/blog_3.jpg" alt="" />
+                        <img src="img/blog_3.jpg" alt="" class="blog-img" />
                         <div class="text-content">
                           <h4>Kolase Daun sebagai Media Pengembangan Motorik Halus Anak di TK Mutiara Hati</h4>
                           <span>31 Januari 2026</span>
@@ -385,7 +398,69 @@
                   </ul>
                 </div>
                 <div id="tab2">
-                  <ul></ul>
+                  <ul>
+                    <li>
+                      <div class="item">
+                        <img src="img/blog_7.jpg" alt="" class="blog-img" />
+                        <div class="text-content">
+                          <h4>Kegiatan Senam & berbagi Susu Kedelai Bersama Ibu-Ibu RT 01</h4>
+                          <span>1 Februari 2026</span>
+                          <p>
+                            Kegiatan senam bersama ibu-ibu RT 01 Desa Pangebatan dilaksanakan dengan penuh antusias dan semangat. Senam dilakukan di lingkungan RT 01 dengan melibatkan ibu-ibu setempat
+                            serta mahasiswa KKN sebagai pendamping kegiatan. Gerakan senam yang dipilih merupakan senam ringan dan mudah diikuti, sehingga seluruh peserta dapat berpartisipasi dengan
+                            nyaman dan aman.
+                          </p>
+                          <div class="accent-button button">
+                            <a href="article.html?id=7">Baca Selengkapnya</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="item">
+                        <img src="img/blog_4.jpg" alt="" class="blog-img" />
+                        <div class="text-content">
+                          <h4>Perencanaan Program POTASI SD Negeri Pangebatan 02</h4>
+                          <span>30 Januari 2026</span>
+                          <p>
+                            Mahasiswa Kuliah Kerja Nyata (KKN) melalui divisi lingkungan merencanakan pelaksanaan program POTASI (Pot Inovasi Daur Ulang) di SD Negeri Pangebatan 02 sebagai bentuk
+                            kontribusi nyata dalam menanamkan kepedulian terhadap lingkungan sejak dini.
+                          </p>
+                          <div class="accent-button button">
+                            <a href="article.html?id=4">Baca Selengkapnya</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="item">
+                        <img src="img/blog_5.jpg" alt="" class="blog-img" />
+                        <div class="text-content">
+                          <h4>Rencana Cek Kesehatan Door to Door</h4>
+                          <span>3 Februari 2026</span>
+                          <p>
+                            Program pemeriksaan kesehatan gratis dengan metode door to door untuk warga Desa Pangebatan, khususnya yang berisiko penyakit tidak menular seperti hipertensi dan diabetes.
+                          </p>
+                          <div class="accent-button button">
+                            <a href="article.html?id=5">Baca Selengkapnya</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="item">
+                        <img src="img/blog_6.jpg" alt="" class="blog-img" />
+                        <div class="text-content">
+                          <h4>Rencana Pelatihan Ecoprint untuk Ibu-Ibu PKK</h4>
+                          <span>8 Februari 2026</span>
+                          <p>Pelatihan teknik ecoprint sebagai upaya peningkatan kreativitas masyarakat melalui pemanfaatan bahan alami seperti daun dan bunga untuk mencetak motif pada kain.</p>
+                          <div class="accent-button button">
+                            <a href="article.html?id=6">Baca Selengkapnya</a>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
                 </div>
                 <div id="tab3">
                   <ul></ul>
@@ -447,7 +522,7 @@
               <!-- Anggota 1 -->
               <div class="col-md-3">
                 <div class="team-member text-center">
-                  <img src="img/member.jpg" alt="Member 1" class="img-fluid rounded-circle" />
+                  <img src="img/member.jpg" alt="Member 1" class="profile-img" />
                   <h4>Tofik Yogi Febrian</h4>
                   <p>Ketua Kelompok</p>
                   <p>NIM: 42522007</p>
@@ -468,7 +543,7 @@
               <!-- Anggota 2 -->
               <div class="col-md-3">
                 <div class="team-member text-center">
-                  <img src="img/member.jpg" alt="Member 2" class="img-fluid rounded-circle" />
+                  <img src="img/member.jpg" alt="Member 2" class="profile-img" />
                   <h4>Ulum Maulana Rizki</h4>
                   <p>Wakil Ketua Kelompok</p>
                   <p>NIM: 40122014</p>
@@ -489,7 +564,7 @@
               <!-- Anggota 3 -->
               <div class="col-md-3">
                 <div class="team-member text-center">
-                  <img src="img/member.jpg" alt="Member 3" class="img-fluid rounded-circle" />
+                  <img src="img/member.jpg" alt="Member 3" class="profile-img" />
                   <h4>Ismi Maolina Zulkifli</h4>
                   <p>Sekretaris</p>
                   <p>NIM: 42122036</p>
@@ -510,7 +585,7 @@
               <!-- Anggota 4 -->
               <div class="col-md-3">
                 <div class="team-member text-center">
-                  <img src="img/member.jpg" alt="Member 4" class="img-fluid rounded-circle" />
+                  <img src="img/member.jpg" alt="Member 4" class="profile-img" />
                   <h4>Mutmainatun Khasanah</h4>
                   <p>Bendahara</p>
                   <p>NIM: 41222052</p>
@@ -533,7 +608,7 @@
               <!-- Anggota 5 -->
               <div class="col-md-3">
                 <div class="team-member text-center">
-                  <img src="img/member.jpg" alt="Member 5" class="img-fluid rounded-circle" />
+                  <img src="img/member.jpg" alt="Member 5" class="profile-img" />
                   <h4>Youla Alfia Zulsa</h4>
                   <p>Divisi Pendidikan</p>
                   <p>NIM: 40222110</p>
@@ -554,7 +629,7 @@
               <!-- Anggota 6 -->
               <div class="col-md-3">
                 <div class="team-member text-center">
-                  <img src="img/member.jpg" alt="Member 6" class="img-fluid rounded-circle" />
+                  <img src="img/member.jpg" alt="Member 6" class="profile-img" />
                   <h4>Silfi Nursukma Loro</h4>
                   <p>Divisi Kesehatan</p>
                   <p>NIM: 42122042</p>
@@ -575,7 +650,7 @@
               <!-- Anggota 7 -->
               <div class="col-md-3">
                 <div class="team-member text-center">
-                  <img src="img/member.jpg" alt="Member 7" class="img-fluid rounded-circle" />
+                  <img src="img/member.jpg" alt="Member 7" class="profile-img" />
                   <h4>Ines Sholihatun Nisa</h4>
                   <p>Divisi Ekonomi</p>
                   <p>NIM: 40222066</p>
@@ -596,7 +671,7 @@
               <!-- Anggota 8 -->
               <div class="col-md-3">
                 <div class="team-member text-center">
-                  <img src="img/member.jpg" alt="Member 8" class="img-fluid rounded-circle" />
+                  <img src="img/member.jpg" alt="Member 8" class="profile-img" />
                   <h4>Hani Kurniawati</h4>
                   <p>Divisi Lingkungan</p>
                   <p>NIM: 40222107</p>
@@ -619,7 +694,7 @@
               <!-- Anggota 9 -->
               <div class="col-md-3">
                 <div class="team-member text-center">
-                  <img src="img/member.jpg" alt="Member 9" class="img-fluid rounded-circle" />
+                  <img src="img/member.jpg" alt="Member 9" class="profile-img" />
                   <h4>Nazma Hidayanti Putri Suyitno</h4>
                   <p>Divisi Kominfo dan PDD</p>
                   <p>NIM: 40422035</p>
@@ -640,7 +715,7 @@
               <!-- Anggota 10 -->
               <div class="col-md-3">
                 <div class="team-member text-center">
-                  <img src="img/member.jpg" alt="Member 10" class="img-fluid rounded-circle" />
+                  <img src="img/member.jpg" alt="Member 10" class="profile-img" />
                   <h4>Muhammad Faran Rkhul Barqi</h4>
                   <p>Sie. Peralatan dan Perlengkapn</p>
                   <p>NIM: 42422035</p>
